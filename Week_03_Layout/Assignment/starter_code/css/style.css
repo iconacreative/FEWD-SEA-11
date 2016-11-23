@@ -46,16 +46,20 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+/*     color: #000;*/
+/*     font-size: 12px;*/
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+/*     font-family: Helvetica, Arial, sans-serif;*/
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+.base-color {
+  background-color: #f0efef;
+}
 
 /* Center the container */
 .container {
@@ -91,9 +95,11 @@ header#navbar {
 }
 
 .navbar-right ul li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   display: inline-block;
   color: #f9e42e;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 30px;
   line-height: 30px;
 
@@ -167,6 +173,7 @@ header#navbar {
   font-size: 26px;
   margin-top: 72px;
   margin-bottom: 15px;
+  color: #033048;
 }
 
 .column-right ul {
@@ -185,9 +192,33 @@ header#navbar {
   line-height: 22px;
 }
 
+.learn-more {
+  margin-top: 10px;
+}
 
+.learn-more a {
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
 
+}
 
+.container7 {
+  background-color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container7 h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 500px;
+  color: #033048;
+
+}
 
 
 .clearfix2 {
